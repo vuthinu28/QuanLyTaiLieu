@@ -15,6 +15,7 @@
     <head>
         <title>Trang chủ | Hệ thống quản lý tài liệu</title>
         <link rel="stylesheet" href="css/index.css">
+        <link rel="shortcut icon" href="image/Address Book.png" >
         <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="js/Registration.js"></script>
         <script>
@@ -27,10 +28,10 @@
         </script>
     </head>
     <body>
-        <div id="wrap">
+        <div id="wrap-fluid">
             <div id="header">
                 <div id="logo">
-                    <h1 style="text-align: center;color: green;"><span><img src="image/Address Book.png" alt="logo"/></span>Hệ thống quản lý tài liệu</h1>  
+                    <h1 style="text-align: center;color: green"><span><img style="margin-top: 5px" src="image/Address Book.png" alt="logo" /></span>Hệ thống quản lý tài liệu</h1>  
                 </div>
                 </div>
             <div id="menu">
@@ -45,7 +46,7 @@
                 </li> 
                 <li><a href="logout.php">Đăng xuất</a></li>
                 
-                <li style="margin-top: 5px;margin-left: 25em;">Tài khoản: <?php echo $username?></li>
+                <li style="margin-top: 5px;margin-left: 60em;">Chào mừng: <?php echo $username?></li>
                 
                 </ul>
             </div>
